@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffffd7;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: rgba(166, 192, 219, 0.133);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(193, 9, 9, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #031cfd1c;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgba(0, 195, 255, 0.2);
+    color: black;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #026df925;
+}
+
+th {
+    background-color: #03bffd18;
+}
+
+td button {
+    margin: 5px;
+    cursor: pointer;
+}
+
+td button.edit {
+    background-color: #4CAF50;
+    color: white;
+}
+td button.edit:hover {
+    background-color:rgba(0, 195, 255, 0.2);
+    color: black
+}
+
+td button.delete {
+    background-color: #f44336;
+    color: white;
+}
+td button.delete:hover {
+    background-color:rgba(0, 195, 255, 0.2);
+    color: black
+}

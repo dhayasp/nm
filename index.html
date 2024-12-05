@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employment Management System</h1>
+
+        <!-- Search Employee -->
+        <input type="text" id="searchInput" placeholder="Search by name or position" onkeyup="retrieveEmployees()">
+        
+        <!-- Add Employee Form -->
+        <div id="addEmployeeForm">
+            <input type="text" id="employeeName" placeholder="Employee Name">
+            <input type="text" id="employeePosition" placeholder="Employee Position">
+            <input type="number" id="employeeSalary" placeholder="Employee Salary">
+            <button onclick="addEmployee()">Add Employee</button>
+        </div>
+
+        <!-- Employee Table -->
+        <table id="employeeTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="employeeList">
+                <!-- Employee records will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
